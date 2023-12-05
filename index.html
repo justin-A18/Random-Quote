@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Quote Random</title>
+		<link rel="stylesheet" href="./src/assets/dist/tailwind.css">
+	</head>
+
+	<body>
+		<main class="bg-[#111629] w-full h-screen flex items-center justify-center">
+			<section class="relative w-[90%] md:w-[35rem] flex flex-col gap-7 items-center overflow-hidden">
+				<article id="quotes"
+					class="bg-[#20293A] flex flex-col items-center justify-around gap-3 w-[100%] min-h-[15rem] rounded-xl overflow-hidden py-4 px-3">
+				</article>
+				<img class="absolute bottom-20 right-0" src="./public/random.svg" alt="desing">
+				<div class="flex w-[100%] items-center justify-center">
+					<button
+						class="w-[4rem] flex items-center justify-center h-[3rem] p-2 border-2 border-solid border-[#20293A] rounded-tl-2xl rounded-bl-2xl" id="random">
+						<img src="./public/Regroup.svg" alt="Regroup">
+					</button>
+
+					<button
+						class="w-[4rem] flex items-center justify-center h-[3rem] p-2  rounded-tr-2xl rounded-br-2xl  border-2 border-solid border-[#20293A]" id="copy">
+						<img src="./public/link.svg" alt="link">
+					</button>
+				</div>
+			</section>
+		</main>
+		<script src="./src/js/main.js"></script>
+	</body>
+
+</html>
